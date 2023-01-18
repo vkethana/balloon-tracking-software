@@ -11,10 +11,8 @@ import time
 from math import dist
 from math import acos
 import math
-import numpy
 from datetime import datetime as dt
-'''
-'''
+
 file_name = "video.mov" # change this line if using different video file
 video = cv2.VideoCapture(file_name)
 #video = cv2.VideoCapture(0) # uncomment this line to use real-time tracking 
